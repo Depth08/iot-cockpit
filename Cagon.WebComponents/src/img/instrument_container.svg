@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="500px" height="500px" viewBox="0 0 500 500" enable-background="new 0 0 500 500" xml:space="preserve">
+<path fill="#1A1A1A" d="M461,31c-14-12-75-31-75-31H114c0,0-61,19-75,31S0,116,0,116v286h0.005C0.005,402.167,0,402.333,0,402.5
+	C0,456.348,36.34,500,81.167,500c0.949,0,1.892-0.027,2.833-0.066V500h302c0,0,61-19,75-31s39-85,39-85V116C500,116,475,43,461,31z
+	 M57.5,67C49.492,67,43,60.508,43,52.5S49.492,38,57.5,38S72,44.492,72,52.5S65.508,67,57.5,67z M437.5,462
+	c-8.008,0-14.5-6.492-14.5-14.5s6.492-14.5,14.5-14.5s14.5,6.492,14.5,14.5S445.508,462,437.5,462z M437.5,67
+	c-8.008,0-14.5-6.492-14.5-14.5S429.492,38,437.5,38S452,44.492,452,52.5S445.508,67,437.5,67z"/>
+<path fill="#2E2E2E" d="M247.289,16.101c-129.947,0-235.29,105.343-235.29,235.29c0,29.742,5.533,58.189,15.602,84.385
+	c-15.252,9.246-23.626,27.402-19.473,45.61c1.803,7.907,5.733,14.78,11.053,20.17l-0.097,0.11l92.075,81.47l0.005-0.005
+	c10.003,9.599,24.551,14.141,39.163,10.808c11.195-2.553,20.348-9.259,26.204-18.093c22.334,7.034,46.102,10.835,70.76,10.835
+	c129.947,0,235.29-105.343,235.29-235.29S377.236,16.101,247.289,16.101z"/>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="23.5833" y1="368.5833" x2="45.9406" y2="390.9406">
+	<stop  offset="0" style="stop-color:#4D4D4D"/>
+	<stop  offset="1" style="stop-color:#000000"/>
+</linearGradient>
+<circle fill="url(#SVGID_1_)" cx="35.5" cy="380.5" r="14.5"/>
+<circle fill="#3D3D3D" cx="35.5" cy="380.5" r="12.5"/>
+<rect x="24" y="379" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -258.6564 136.5482)" fill="#1A1A1A" width="23" height="3"/>
+<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="126.5833" y1="458.5833" x2="148.9406" y2="480.9406">
+	<stop  offset="0" style="stop-color:#4D4D4D"/>
+	<stop  offset="1" style="stop-color:#000000"/>
+</linearGradient>
+<circle fill="url(#SVGID_2_)" cx="138.5" cy="470.5" r="14.5"/>
+<circle fill="#3D3D3D" cx="138.5" cy="470.5" r="12.5"/>
+<rect x="127" y="469" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -292.128 235.7406)" fill="#1A1A1A" width="23" height="3"/>
+</svg>

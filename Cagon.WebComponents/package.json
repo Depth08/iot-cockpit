@@ -1,0 +1,15 @@
+{
+  "name": "CAGON",
+  "version": "1.0.0",
+  "description": "A collection of web-based networked instruments for simulators",
+  "main": "index.html",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "rafael.mindreau",
+  "license": "ISC"
+}

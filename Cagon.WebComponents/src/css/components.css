@@ -1,0 +1,225 @@
+/* Component container */
+.component-container {
+    padding: 0.25rem;
+}
+
+.component-container figure {
+    margin: 0.25rem;
+    box-sizing: border-box;
+}
+
+
+/* Instruments */
+.instrument {
+    display: block;
+    box-sizing: border-box;
+
+    background-image: url("../img/instrument_container.svg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.instrument > div {
+    padding-bottom: 100%;
+}
+
+
+/* Vspeeds guage */
+.vspeed-instrument {
+    position: relative;
+
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.vspeed-instrument-corona {
+    display: block;
+    position: absolute;
+
+    width: 90%;
+    height: 90%;
+
+    top: 5%;
+    left: 5%;
+}
+
+.vspeed-instrument-corona > * {
+    display: block;
+    border-radius: 100%;
+    position: absolute;
+}
+
+.vspeed-instrument-corona .outer {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top left, #151515, #4F4F4F);
+}
+
+.vspeed-instrument-corona .middle {
+    top: 2.5%;
+    left: 2.5%;
+    width: 95%;
+    height: 95%;
+    background: linear-gradient(to top left, #4F4F4F, #111111);
+}
+
+.vspeed-instrument-corona .inner {
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+    background: linear-gradient(to top left, #626262, #151515);
+}
+
+.vspeed-instrument-faceplate {
+    position: absolute;
+    border-radius: 100%;
+
+    text-transform: uppercase;
+    font-size: 2.2vw;
+
+    top: 11%;
+    left: 11%;
+    width: 78%;
+    height: 78%;
+    background: radial-gradient(#242424 65%, #000000 80%);
+}
+
+.vspeed-instrument-faceplate .nameplate-up {
+    position: absolute;
+    top: 30%;
+    left: 48%;
+    width: 40%;
+    height: 30%;
+}
+
+.vspeed-instrument-faceplate .nameplate-down {
+    position: absolute;
+    top: 56%;
+    left: 48%;
+    width: 38%;
+    height: 30%;
+}
+
+.vspeed-instrument-faceplate .brand {
+    position: absolute;
+    top: 45%;
+    left: 25%;
+    width: 20%;
+}
+
+.vspeed-instrument-increments {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+}
+
+.vspeed-instrument-needle {
+    position: absolute;
+
+    width: 80%;
+    height: 20%;
+
+    transform-origin: 50% 50%;
+    top: 40%;
+    left: 10%;
+
+    transition: transform 0.35s cubic-bezier(0.49, 0.42, 0.86, 1.01)
+}
+
+.vspeed-instrument-needle img {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+
+    width: 70.7%;
+}
+
+
+/* Analog Buttons */
+.btn-analog {
+    border: none;
+    padding: 1rem;
+
+    -webkit-user-select: none; /* Chrome/Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+ */
+    user-select: none;
+}
+
+.btn-analog.round {
+    position: relative;
+    display: block;
+    width: 6rem;
+    height: 6rem;
+
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-align: center;
+
+    border-radius: 100%;
+
+    z-index: 1;
+}
+
+.btn-analog.round:before {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
+    width: 5rem;
+    height: 5rem;
+
+    font-size: 1.2rem;
+    font-weight: 700;
+
+    border-radius: 100%;
+
+    z-index: -1;
+}
+
+.btn-analog.dark {
+    color: #ebebeb;
+    background: linear-gradient(#1a1e20, #0b1718);
+    box-shadow: 0 0 4px 1px #000000;
+}
+
+.btn-analog.dark.pressed {
+    box-shadow: 0 0 4px 1px #000000, inset 0 0 2px 3px black;
+}
+
+.btn-analog.dark:before {
+    box-sizing: border-box;
+    background: linear-gradient(#0b1718, #1e2325);
+}
+
+.test-utils {
+    background-color: #333b3f;
+    border-radius: 1rem;
+    padding: 1rem;
+
+    box-sizing: border-box;
+}
+
+form label, form input {
+    font-size: 1.4rem;
+
+    display: block;
+    width: 50%;
+
+    outline: none;
+}
+
+form input, form button {
+    padding: 1rem;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.8rem;
+}

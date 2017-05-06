@@ -1,0 +1,27 @@
+{
+  "name": "CAGON",
+  "authors": [
+    "rafael.mindreau <rafael.mindreau@student.odisee.be>"
+  ],
+  "description": "A collection of web-based networked instruments for simulators",
+  "main": "index.html",
+  "keywords": [
+    "Cockpit",
+    "Instruments",
+    "Network",
+    "Simulator"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "angular": "^1.6.3"
+  }
+}
